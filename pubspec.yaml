@@ -1,0 +1,65 @@
+name: nomundodasluas_v7
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  fab_circular_menu: ^1.0.2
+
+  flutter_datetime_picker: ^1.5.1
+  url_launcher: ^6.0.4
+  flutter_signin_button: ^2.0.0
+  font_awesome_flutter: ^9.0.0
+  carousel_slider: ^4.0.0-nullsafety.0
+  hovering: ^1.0.4
+  platform_detect2: ^1.5.0+2
+
+  firebase: ^9.0.1
+  firebase_auth: ^1.1.4
+  cloud_firestore: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+  fonts:
+    - family: Kufam
+      fonts:
+        - asset: assets/fonts/Kufam-Italic-VariableFont_wght.ttf
+        - asset: assets/fonts/Kufam-VariableFont_wght.ttf
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Monstserrat
+      fonts:
+        - asset: assets/fonts/MontserratAlternates-Thin.ttf
+    - family: FontAwesome
+      fonts:
+        - asset: assets/fonts/FontAwesome.ttf
+    - family: FontAwesome5_Brands
+      fonts:
+        - asset: assets/fonts/FontAwesome5_Brands.ttf
+    - family: FontAwesome5_Regular
+      fonts:
+        - asset: assets/fonts/FontAwesome5_Regular.ttf
+    - family: FontAwesome5_Solid
+      fonts:
+        - asset: assets/fonts/FontAwesome5_Solid.ttf
+    - family: nightsky
+      fonts:
+        - asset: assets/fonts/Night-Sky-Regular.ttf
+    - family: conforta
+      fonts:
+        - asset: assets/fonts/Comfortaa-VariableFont_wght.ttf
+    - family: Icons
+      fonts:
+        - asset: assets/fonts/MaterialIcons.ttf
